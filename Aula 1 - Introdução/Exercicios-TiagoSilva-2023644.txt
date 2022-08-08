@@ -1,0 +1,77 @@
+Lista 1:
+
+1. $ man <comando>
+
+2. $ ls $HOME
+
+3. $ pwd
+
+4. $ who
+
+5. $ home
+
+6.
+
+7.
+
+8. -a: não ignora aqueles que iniciam com .
+   -l: usa o formato longo de lista
+
+9. $ who | grep $USER
+
+10. São os que não aparecem em listagme comum
+
+11. $ ln -s <comando do atalho> <local do atalho>
+
+12. du: estima o espaço usado do arquivo
+    df: estima o espaço restante
+
+13. longa: $ ls -l
+    curta: $ ls -a
+    tamanho: $ ls -S
+    longa/alfabetica: $ ls /etc -lX
+    longa/datas: $ ls -lrt
+    curta/recursiva por tamanho: $ ls -rS
+
+    -l: permissões/numero/dono/grupo/tamanho/data/nome
+
+14. $ mkdir -p a/b/c/d/h a/b/c/e a/b/f/d a/b/j
+
+15. tar cvf arq.tar $HOME
+    tar czvf arq.tar.gz $HOME
+
+-----------------------------------------------------------------
+Lista 2:
+
+01. $ mkdir -p $HOME/aula01 $HOME/aula02/exercicios $HOME/aula03 $HOME/aula04 $HOME/aula05
+
+02. $ touch $HOME/aula01 DATA
+
+03. $ chmod 755 $HOME
+
+04. $ mkdir $HOME/mydir
+    $ chmod g+w mydir
+
+05. $ cp copia o arquivo
+    $ mv move o arquivo
+
+06. r = ler os conteúdos do diretório
+    x = entrar no diretrio, porém não poder ler seus conteúdos
+
+07. r = ler o arquivo
+    x = executar caso seja executável ou um script
+
+08. Não.
+
+09. $ touch teste
+    $ chmod o-w teste
+    $ chmod 555 teste
+    $ chmod 644 teste
+    $ chmod 400 teste
+
+10. Umask não pode adicionar bits de permissão em arquivos.
+
+11. Não é possível listar d1
+    É possível listar d2
+    Não é possível entrar em d1
+    É possível entrar em p2
